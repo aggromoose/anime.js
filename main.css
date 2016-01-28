@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Lato;
+	min-width: 950px;
+}
+
+#input {
+	position: relative;
+	float:left;
+	width: 40%;
+	height: 100%;
+	left: 0;
+	background-color: #3498db;
+	text-align: center;
+}
+
+#holder {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#input h {
+	font-size: 36px;
+	font-weight: 900;
+	color: white;
+	margin: 0;
+}
+
+#input p {
+	font-size: 16px;
+	font-weight: 100;
+	font-style: italic;
+	color: white;
+	margin: 10;
+}
+
+#inputField {
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10;
+    margin-top: 40;
+}
+
+#inputButton {
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10;
+    background-color: #1E608C;
+    color: white;
+    margin-top: 15;
+    border-bottom: solid 5px #143D58;
+}
+
+#inputButton:hover {
+	margin-top: 16;
+	border-bottom: solid 4px #143D58;
+}
+
+#inputButton:active {
+	margin-top: 18;
+	border-bottom: solid 2px #143D58;
+}
+
+#info {
+	position: relative;
+	float:left;
+	width: 60%;
+	height: 100%;
+	padding: 30;
+	box-sizing: border-box;
+}
+
+#info img {
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+#title {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+#synopsis {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+#genres {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
